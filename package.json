@@ -1,0 +1,24 @@
+{
+  "name": "ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "demo.js",
+  "dependencies": {
+    "readline-sync": "^1.4.10",
+    "rxjs": "^7.8.1",
+    "tslib": "^2.6.2",
+    "typescript": "^5.2.2",
+    "undici-types": "^5.25.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "007"
+  ],
+  "author": "Adarsh Dhital Khatri",
+  "license": "ISC"
+}
