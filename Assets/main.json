@@ -1,0 +1,30 @@
+[
+  {
+    "_id": { "$oid": "124f3231d126d" },
+
+    "FirstName": "Ashley",
+    "LastName": "Johnson",
+    "Age": 25
+  },
+  {
+    "_id": { "$oid": "12d3231d126d" },
+
+    "FirstName": "Ash",
+    "LastName": "Robe",
+    "Age": 20
+  },
+  {
+    "_id": { "$oid": "123er31d126d" },
+
+    "FirstName": "Josh",
+    "LastName": "Patrick",
+    "Age": 15
+  },
+  {
+    "_id": { "$oid": "123ju31d126d" },
+
+    "FirstName": "Taylor",
+    "LastName": "Johnson",
+    "Age": 21
+  }
+]

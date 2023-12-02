@@ -1,0 +1,33 @@
+{
+  "words": [
+    "apple",
+    "banana",
+    "cherry",
+    "date",
+    "elephant",
+    "flower",
+    "grape",
+    "honey",
+    "ice cream",
+    "jacket",
+    "kite",
+    "lemon",
+    "melon",
+    "notebook",
+    "orange",
+    "penguin",
+    "quilt",
+    "rainbow",
+    "strawberry",
+    "tiger",
+    "umbrella",
+    "violin",
+    "watermelon",
+    "xylophone",
+    "yogurt",
+    "zebra",
+    "carrot",
+    "dog",
+    "giraffe"
+  ]
+}
