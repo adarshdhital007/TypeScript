@@ -34,4 +34,10 @@ function popularUsers(users: User[]) {
   });
 }
 
+// function popularUsersReject(users: User[]) {
+//   return _.reject(users, function (user) {
+//     return !user.isActive || user.likes < 20;
+//   });
+// }
+
 console.log(popularUsers(users));
