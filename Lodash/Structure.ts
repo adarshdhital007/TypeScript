@@ -10,6 +10,8 @@ const users: User[] = [
   { id: 1, name: 'John', age: 25 },
   { id: 2, name: 'Alice', age: 30 },
   { id: 3, name: 'Bob', age: 22 },
+  { id: 4, name: 'Julia', age: 17 },
+  { id: 5, name: 'Jason', age: 13 },
 ];
 
 interface UserWithStatus {
@@ -24,5 +26,6 @@ const usersWithStatus: UserWithStatus[] = _.map(users, (user) => ({
   status: user.age >= 18 ? 'Adult' : 'Minor',
 }));
 
-console.log(usersWithStatus);
-// Output: [{ id: 1, name: 'John', status: 'Adult' }, { id: 2, name: 'Alice', status: 'Adult' }, { id: 3, name: 'Bob', status: 'Adult' }]
+const adultsOnly: UserWithStatus[] = usersWithStatus.filter((user) => user.status === 'Adult');
+
+console.log(adultsOnly);
